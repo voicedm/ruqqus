@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 export PYTHONPATH=$PYTHONPATH:~/ruqqus
 cd ~/
 
-echo "starting background worker"
+echo "starting background worker "
 python ruqqus/scripts/recomputes.py
 
 echo "starting chat worker"
